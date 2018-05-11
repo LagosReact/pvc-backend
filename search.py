@@ -15,7 +15,7 @@ db = redis.Redis(host=REDIS_HOST, port=REDIS_PORT)
 def search_db():
     redis_key = request.args.get('key', '')
     if not redis_key:
-        return {'message': 'go away jare'}
+        return jsonify({'message': 'go away jare'})
     else:
         yes_key = '#{}YES'.format(redis_key).upper()
         no_key = '#{}NO'.format(redis_key).upper()
