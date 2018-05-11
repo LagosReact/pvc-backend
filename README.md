@@ -1,8 +1,8 @@
 Setup
 =====
 
-1. clone the repo
+- clone the repo
 
-2. cd pvc-backend
+- cd pvc-backend
 
-3.pipenv install
+- pipenv install
