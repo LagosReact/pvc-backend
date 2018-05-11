@@ -1,0 +1,9 @@
+export PVC_SECRET='secret'
+export PVC_DB='sqlite:///mydb.db'
+
+export REDIS_HOST='redis-16100.c8.us-east-1-4.ec2.cloud.redislabs.com'
+export REDIS_PORT=16100
+export TWITTER_CONSUMER_KEY='ZzILuxWWQ8WSW6pwK1G1qzqDG'
+export TWITTER_CONSUMER_SECRET='dkcLVX7mYl23MNgVSrTMJP1ZyEp1MPy43y7aHW6zjFjrw45IED'
+export TWITTER_TOKEN_KEY='306709583-Cu7DRqP6WK4X4HqLfnRdoSaNl2qAmN2iCuqXMzYh'
+export TWITTER_TOKEN_SECRET='VXPQQ6aThXHgGRBGE9ZNX3EdM0ljMKote1OHMBOW4mr5c'
