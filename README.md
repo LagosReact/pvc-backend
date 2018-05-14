@@ -20,3 +20,17 @@ Setup
 - cd pvc-backend
 
 - pipenv install
+
+Settings api
+============
+
+To set the campaign parameters send a POST to http://[url]/setup with the following parameters
+  - campaign_name: 'name'
+  - hashtags: [{tag: 'hashtag1', description: 'a hashtag'}, ....]}
+
+Data api
+========
+
+To retrieve data send a GET request to http://[url]/search?key=campaign_name
+You get a json response with a list of 
+{hastag: {count: number_of_posts, description: desc}}
